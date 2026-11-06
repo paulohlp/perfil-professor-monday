@@ -22,6 +22,8 @@ erDiagram
     BOARD_CENTRAL_PROFESSORES ||--o{ BOARD_DESIGN_INSTRUCIONAL : "Chave: Monday:Autor"
     BOARD_CENTRAL_PROFESSORES ||--o{ BOARD_SUPORTE_ASSISTENCIA : "Chave: Monday:Autor"
     BOARD_CENTRAL_PROFESSORES ||--o{ FORM_OCORRENCIAS_EVENTUAIS : "Chave: Monday:Autor"
+    BOARD_CENTRAL_PROFESSORES ||--o{ GESTÃO_AVA : "Chave: Monday:Autor"
+    BOARD_CENTRAL_PROFESSORES ||--o{ GESTÃO_AVALIAÇÕES : "Chave: Monday:Autor"
 
     BOARD_CENTRAL_PROFESSORES {
         string email_cpf PK "Chave Única"
