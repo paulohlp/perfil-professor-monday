@@ -13,7 +13,7 @@ Migração e expansão do modelo atual de avaliação pós-gravação (Trello) p
 
 ## 2. Arquitetura de Dados na Monday.com
 
-A estrutura baseia-se em um **Modelo Relacional Centralizado**, onde o **E-mail Institucional (ou CPF)** atua como chave única (`Unique ID`) conectando todos os boards operacionais ao Board Central via colunas **Connect Boards** e **Mirror**.
+A estrutura baseia-se em um **Modelo Relacional Centralizado**, onde o **Chave individual da monday** atua como chave única (`Unique ID`) conectando todos os boards operacionais ao Board Central via colunas **Connect Boards** e **Mirror**.
 
 ```mermaid
 erDiagram
