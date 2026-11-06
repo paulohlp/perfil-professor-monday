@@ -17,12 +17,11 @@ A estrutura baseia-se em um **Modelo Relacional Centralizado**, onde o **Chave i
 
 ```mermaid
 erDiagram
-    BOARD_CENTRAL_PROFESSORES ||--o{ BOARD_AGENDAMENTOS : "Chave: Monday>Autor"
-    BOARD_CENTRAL_PROFESSORES ||--o{ BOARD_ESTUDIO_GRAVACAO : "Chave: Monday>Autor"
-    BOARD_CENTRAL_PROFESSORES ||--o{ BOARD_DESIGN_INSTRUCIONAL : "Chave: Monday>Autor"
-    BOARD_CENTRAL_PROFESSORES ||--o{ BOARD_SUPORTE_ASSISTENCIA : "Chave: Monday>Autor"
-    BOARD_CENTRAL_PROFESSORES ||--o{ FORM_OCORRENCIAS_EVENTUAIS : "Chave: Monday>Autor"
-    BOARD_CENTRAL_PROFESSORES ||--o{ FORM_OCORRENCIAS_EVENTUAIS : "Chave: Monday>Autor"
+    BOARD_CENTRAL_PROFESSORES ||--o{ BOARD_AGENDAMENTOS : "Chave: Monday:Autor"
+    BOARD_CENTRAL_PROFESSORES ||--o{ BOARD_ESTUDIO_GRAVACAO : "Chave: Monday:Autor"
+    BOARD_CENTRAL_PROFESSORES ||--o{ BOARD_DESIGN_INSTRUCIONAL : "Chave: Monday:Autor"
+    BOARD_CENTRAL_PROFESSORES ||--o{ BOARD_SUPORTE_ASSISTENCIA : "Chave: Monday:Autor"
+    BOARD_CENTRAL_PROFESSORES ||--o{ FORM_OCORRENCIAS_EVENTUAIS : "Chave: Monday:Autor"
 
     BOARD_CENTRAL_PROFESSORES {
         string email_cpf PK "Chave Única"
